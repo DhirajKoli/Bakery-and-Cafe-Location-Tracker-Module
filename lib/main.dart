@@ -9,9 +9,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter GoogleMaps Demo',
+      title: 'Cake Shops & Cafés',
       theme: ThemeData(
-        primaryColor: Color(0xff6200ee),
+        primaryColor: Color.fromRGBO(0, 355, 355, 1),
       ),
       home: HomePage(),
     );
